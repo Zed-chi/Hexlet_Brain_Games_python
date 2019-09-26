@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Zed-chi_brain_games"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["me"]
 license = "MIT"
@@ -11,8 +11,10 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.6"
 pip = "^19.2"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
