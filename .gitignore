@@ -1,2 +1,6 @@
 
 *.pyc
+dist
+pypoetry
+pip
+zed_chi_brain_games.egg-info
