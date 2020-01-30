@@ -9,10 +9,10 @@ Package on [TestPypi repository](https://test.pypi.org/project/zed-chi-brain-gam
 [![Build Status](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python.svg?branch=master)](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python)
 
 Instructions:
-`
+```bash
 poetry install
 poetry build
 poetry run brain-even
-`
+```
  [Hexlet](https://hexlet.io/)
 
