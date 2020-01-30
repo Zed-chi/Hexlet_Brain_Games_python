@@ -1,18 +1,31 @@
 # python-project-lvl1
 
 ### Hexlet Brain Games 1 project
-comandline games in python
+It's a comandline games in python
 
-Package on [TestPypi repository](https://test.pypi.org/project/zed-chi-brain-games/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5346e09076a8d5e50282/maintainability)](https://codeclimate.com/github/Zed-chi/Hexlet_Brain_Games_python/maintainability)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/bc8b27a918a41a32d89e/maintainability)](https://codeclimate.com/github/Zed-chi/Hexlet_Brain_Games_python/maintainability)
 [![Build Status](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python.svg?branch=master)](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python)
 
-Instructions:
-```bash
-poetry install
-poetry build
-poetry run brain-even
-```
- [Hexlet](https://hexlet.io/)
+Package on [TestPypi repository](https://test.pypi.org/project/zedchi-brain-games/)
+## Requrements:
+- python 3.6
 
+## Installing:
+```
+>> pip install -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
+```
+After that you can execute by typing:
+`brain-games` or `brain-even`
+
+### Demo:
+[![asciicast](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n.svg)](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n)
+
+
+## dev instructions:
+```bash
+make install
+make lint
+```
+
+[Hexlet](https://hexlet.io/)
