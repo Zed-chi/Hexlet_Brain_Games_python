@@ -1,10 +1,7 @@
 import prompt
 
 
-def run():
-    name = prompt.string('\nMay I have your name? ')
-    print("Hello, {}!".format(name))
-
-
-if __name__ == "__main__":
-    run()
+def welcome_user():
+    name = prompt.string(empty=False, prompt="May I have your name? ")
+    print(f"Hello {name}")
+    return name
