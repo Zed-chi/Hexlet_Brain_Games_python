@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zedchi_brain_games"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Zed-chi <zed-chi@mail.ru>"]
 packages = [
