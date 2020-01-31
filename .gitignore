@@ -1,4 +1,8 @@
 *.pyc
-/pypoetry/*
-/pip/*
-/dist/*
+pypoetry/*
+pip/*
+dist/*
+zedchi_brain_games.egg-info/*
+.vscode
+.venv
+poetry.lock
