@@ -1,10 +1,11 @@
 from ..cli import welcome_user
-from .test_game1 import game as calc
-from .test_game2 import game as even
+from .games.test_game1 import game as calc
+from .games.test_game2 import game as even
 import prompt
 
 
 GAMES = [calc, even]
+ANSWERS_TO_WIN = 3
 
 def main():
     print("Welcome to the Brain Games!")
@@ -21,7 +22,8 @@ def main():
 
     print(game["description"])
     correct_answers = 0
-    while correct_answers < 3:
+    
+    while correct_answers < ANSWERS_TO_WIN:
         if game["game"]():
             correct_answers += 1
     print(f"Congratulations, {name}!")
