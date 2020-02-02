@@ -11,13 +11,14 @@ def progression():
     missing_num_index = randint(0, PROGRESSION_LENGTH)
     numbers = list(
         range(
-            start_num, 
-            PROGRESSION_LENGTH * progression_step, 
-            progression_step
+            start_num,
+            PROGRESSION_LENGTH * progression_step,
+            progression_step,
         )
     )
     missing_number = numbers[missing_num_index]
     numbers[missing_num_index] = ".."
+    numbers = map(lambda x: str(x), numbers)
 
     print(f"Question: {' '.join(numbers)}")
     answer = prompt.integer(prompt="Your answer: ")
