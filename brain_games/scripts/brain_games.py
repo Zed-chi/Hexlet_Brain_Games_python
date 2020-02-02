@@ -2,10 +2,11 @@ from ..cli import welcome_user
 from .games.brain_calc import game as calc
 from .games.brain_even import game as even
 from .games.brain_gcd import game as gcd
+from .games.brain_progression import game as progression
 import prompt
 
 
-GAMES = [calc, even, gcd]
+GAMES = [calc, even, gcd, progression]
 ANSWERS_TO_WIN = 3
 
 
@@ -18,7 +19,7 @@ def main():
         print(f"{i}. {v['title']}")
 
     choice = None
-    while choice == None or choice > len(GAMES) - 1 or choice < 0:
+    while choice is None or choice > len(GAMES) - 1 or choice < 0:
         choice = prompt.integer(prompt="Your choice: ")
     game = GAMES[choice]
 
