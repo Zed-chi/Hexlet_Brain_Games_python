@@ -5,10 +5,10 @@ import prompt
 PROGRESSION_LENGTH = 10
 
 
-def progression():
+def progression_game():
     start_num = randint(1, 20)
     progression_step = randint(1, 10)
-    missing_num_index = randint(1, PROGRESSION_LENGTH-1)
+    missing_num_index = randint(1, PROGRESSION_LENGTH - 1)
     print(missing_num_index)
     numbers = list(
         range(
@@ -37,5 +37,5 @@ def progression():
 game = {
     "title": "Progression game",
     "description": "What number is missing in the progression?\n",
-    "game": progression,
+    "game": progression_game,
 }

@@ -2,7 +2,7 @@ from random import randint
 import prompt
 
 
-def calc():
+def calc_game():
     num_a = randint(0, 100)
     num_b = randint(0, 100)
     operation = randint(1, 4)
@@ -33,5 +33,5 @@ def calc():
 game = {
     "title": "Calculation game",
     "description": "What is the result of the expression?\n",
-    "game": calc,
+    "game": calc_game,
 }

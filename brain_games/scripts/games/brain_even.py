@@ -2,7 +2,7 @@ from random import randint
 import prompt
 
 
-def even_or_not():
+def even_or_not_game():
     num = randint(0, 100)
     is_num_even = num % 2 == 0
     print(f"Question: {num}")
@@ -22,5 +22,5 @@ def even_or_not():
 game = {
     "title": "Even or Not",
     "description": "Answer 'yes' if number even otherwise answer 'no'.\n",
-    "game": even_or_not,
+    "game": even_or_not_game,
 }
