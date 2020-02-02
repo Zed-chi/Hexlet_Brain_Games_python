@@ -8,11 +8,12 @@ PROGRESSION_LENGTH = 10
 def progression():
     start_num = randint(1, 20)
     progression_step = randint(1, 10)
-    missing_num_index = randint(0, PROGRESSION_LENGTH)
+    missing_num_index = randint(1, PROGRESSION_LENGTH-1)
+    print(missing_num_index)
     numbers = list(
         range(
             start_num,
-            PROGRESSION_LENGTH * progression_step,
+            start_num + PROGRESSION_LENGTH * progression_step,
             progression_step,
         )
     )
