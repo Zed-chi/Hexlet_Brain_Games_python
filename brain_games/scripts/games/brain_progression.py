@@ -1,4 +1,5 @@
 from random import randint
+from ..brain_games import main as run
 import prompt
 
 
@@ -39,3 +40,11 @@ game = {
     "description": "What number is missing in the progression?\n",
     "game": progression_game,
 }
+
+
+def main():
+    run(game=game)
+
+
+if __name__ == "__main__":
+    main()

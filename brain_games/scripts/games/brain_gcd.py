@@ -1,4 +1,5 @@
 from random import randint
+from ..brain_games import main as run
 import prompt
 
 
@@ -30,3 +31,11 @@ game = {
     "description": "Find the greatest common divisor of given numbers.\n",
     "game": greatest_common_divider_game,
 }
+
+
+def main():
+    run(game=game)
+
+
+if __name__ == "__main__":
+    main()

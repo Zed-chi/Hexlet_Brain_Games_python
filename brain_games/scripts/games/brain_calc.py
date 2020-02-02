@@ -1,4 +1,5 @@
 from random import randint
+from ..brain_games import main as run
 import prompt
 
 
@@ -35,3 +36,11 @@ game = {
     "description": "What is the result of the expression?\n",
     "game": calc_game,
 }
+
+
+def main():
+    run(game=game)
+
+
+if __name__ == "__main__":
+    main()

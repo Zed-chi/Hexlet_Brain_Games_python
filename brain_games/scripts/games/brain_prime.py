@@ -1,3 +1,4 @@
+from ..brain_games import main as run
 from random import randint
 import prompt
 
@@ -36,3 +37,11 @@ game = {
         "Otherwise answer 'no'.\n",
     "game": prime_game,
 }
+
+
+def main():
+    run(game=game)
+
+
+if __name__ == "__main__":
+    main()

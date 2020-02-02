@@ -1,4 +1,5 @@
 from random import randint
+from ..brain_games import main as run
 import prompt
 
 
@@ -24,3 +25,11 @@ game = {
     "description": "Answer 'yes' if number even otherwise answer 'no'.\n",
     "game": even_or_not_game,
 }
+
+
+def main():
+    run(game=game)
+
+
+if __name__ == "__main__":
+    main()
