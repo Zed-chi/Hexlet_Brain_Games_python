@@ -15,8 +15,9 @@ Package on [TestPypi repository](https://test.pypi.org/project/zedchi-brain-game
 ```
 >> pip install -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
 ```
-After that you can execute by typing:
-`brain-games` or `brain-even`
+After that you can execute program by typing in cmd or terminal:
+`brain-games`
+And program will give you list of available games, then you can choose game that you want.
 
 ### Demo:
 [![asciicast](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n.svg)](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n)
