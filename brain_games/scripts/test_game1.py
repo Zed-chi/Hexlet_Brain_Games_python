@@ -2,13 +2,6 @@ from random import randint
 import prompt
 
 
-game = {
-    title: "Even or Not",
-    description: "Answer 'yes' if number even otherwise answer 'no'.\n",
-    game: even_or_not,
-}
-
-
 def even_or_not():
     num = randint(0, 100)
     is_num_even = num % 2 == 0
@@ -24,3 +17,10 @@ def even_or_not():
             f"Correct answer was '{correct_answer}'.",
         )
         return False
+
+
+game = {
+    "title": "Even or Not",
+    "description": "Answer 'yes' if number even otherwise answer 'no'.\n",
+    "game": even_or_not,
+}

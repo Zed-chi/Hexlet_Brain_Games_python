@@ -2,13 +2,6 @@ from random import randint
 import prompt
 
 
-game = {
-    title: "Calculation game",
-    description: "What is the result of the expression?\n",
-    game: calc,
-}
-
-
 def calc():
     num_a = randint(0, 100)
     num_b = randint(0, 100)
@@ -35,3 +28,10 @@ def calc():
             f"Correct answer was '{result}'.",
         )
         return False
+
+
+game = {
+    "title": "Calculation game",
+    "description": "What is the result of the expression?\n",
+    "game": calc,
+}

@@ -7,19 +7,26 @@ import prompt
 GAMES = [calc, even]
 
 def main():
-    correct_answers = 0
     print("Welcome to the Brain Games!")
     name = welcome_user()
-    print("Games:")
-    for i,v in enumerate(GAMES):
-        print(f"{i}. {v.title}")
-
-    while choice or choice > len(GAMES) or choice<len(GAMES):
-        choice = prompt.integer(promt="Your choice", empty=False)        
+    print("\n")
+    print("Games: ")
+    for i,v in enumerate(GAMES):        
+        print(f"{i}. {v['title']}")
+    
+    choice = None
+    while choice == None or choice > len(GAMES)-1 or choice<0:
+        choice = prompt.integer(prompt="Your choice: ")        
     game = GAMES[choice]
 
+    print(game["description"])
+    correct_answers = 0
     while correct_answers < 3:
-        if game():
+        if game["game"]():
             correct_answers += 1
     print(f"Congratulations, {name}!")
     return None
+
+
+if __name__ == "__main__":
+    main()
