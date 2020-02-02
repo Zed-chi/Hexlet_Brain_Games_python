@@ -3,8 +3,12 @@ import prompt
 
 
 def is_num_prime(num):
-    for i in range(2, 10):
-        if num % 2 == 0:
+    if num < 10:
+        end = num
+    else:
+        end = 10
+    for i in range(2, end):
+        if num % i == 0:
             return False
     return True
 

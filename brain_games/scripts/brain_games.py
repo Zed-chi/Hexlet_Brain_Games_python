@@ -3,10 +3,11 @@ from .games.brain_calc import game as calc
 from .games.brain_even import game as even
 from .games.brain_gcd import game as gcd
 from .games.brain_progression import game as progression
+from .games.brain_prime import game as prime
 import prompt
 
 
-GAMES = [calc, even, gcd, progression]
+GAMES = [calc, even, gcd, progression, prime]
 ANSWERS_TO_WIN = 3
 
 
