@@ -38,7 +38,7 @@ def ask_expression():
     else:
         print(
             f"'{answer}' is wrong answer ;(. ",
-            f"Correct answer was '{result}'."
+            f"Correct answer was '{result}'.",
         )
         return False
 

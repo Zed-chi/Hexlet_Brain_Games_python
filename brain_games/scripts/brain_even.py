@@ -27,7 +27,7 @@ def ask_even_or_not():
     else:
         print(
             f"'{answer}' is wrong answer ;(. ",
-            f"Correct answer was '{correct_answer}'."
+            f"Correct answer was '{correct_answer}'.",
         )
         return False
 
