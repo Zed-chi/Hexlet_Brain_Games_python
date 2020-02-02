@@ -5,4 +5,3 @@ dist/*
 zedchi_brain_games.egg-info/*
 .vscode
 .venv
-*.lock
