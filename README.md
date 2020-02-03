@@ -13,11 +13,11 @@ Package on [TestPypi repository](https://test.pypi.org/project/zedchi-brain-game
 
 ## Installing:
 ```
->> pip install --user -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
+>> pip install -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
 ```
 or 
 ```
->> pip3 install --user -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
+>> pip3 install -i https://test.pypi.org/simple zedchi-brain-games --extra-index-url https://pypi.org/simple prompt
 ```
 
 * After that you can run program with choosing games menu by typing in console:
