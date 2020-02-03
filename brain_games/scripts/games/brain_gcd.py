@@ -29,7 +29,7 @@ def greatest_common_divider_game():
 game = {
     "title": "Greatest common divider game",
     "description": "Find the greatest common divisor of given numbers.\n",
-    "game": greatest_common_divider_game,
+    "game_round": greatest_common_divider_game,
 }
 
 

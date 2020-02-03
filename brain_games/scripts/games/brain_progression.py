@@ -38,7 +38,7 @@ def progression_game():
 game = {
     "title": "Progression game",
     "description": "What number is missing in the progression?\n",
-    "game": progression_game,
+    "game_round": progression_game,
 }
 
 

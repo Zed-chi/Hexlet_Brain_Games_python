@@ -17,8 +17,8 @@ def calc_game():
         print(f"Question: {num_a} * {num_b}")
         result = num_a * num_b
     else:
-        print(f"Question: {num_a} / {num_b}")
-        result = num_a / num_b
+        print(f"Question: {num_a} // {num_b}")
+        result = num_a // num_b
     answer = prompt.integer(prompt="Your answer: ", empty=False)
     if answer == result:
         print("Correct!")
@@ -34,7 +34,7 @@ def calc_game():
 game = {
     "title": "Calculation game",
     "description": "What is the result of the expression?\n",
-    "game": calc_game,
+    "game_round": calc_game,
 }
 
 

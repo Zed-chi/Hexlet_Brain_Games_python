@@ -7,7 +7,7 @@ def welcome_user():
     return name
 
 
-def main(game=None, GAMES=None, ANSWERS_TO_WIN=3):
+def main(game=None, GAMES=None, answers_to_win=3):
     print("Welcome to the Brain Games!")
     name = welcome_user()
     if game is None and GAMES is None:
@@ -24,8 +24,11 @@ def main(game=None, GAMES=None, ANSWERS_TO_WIN=3):
 
     print(game["description"])
     correct_answers = 0
-    while correct_answers < ANSWERS_TO_WIN:
-        if game["game"]():
+    while correct_answers < answers_to_win:
+        if game["game_round"]():
             correct_answers += 1
+        else:
+            print(f"Let's try again, {name}!")
+            return None
     print(f"Congratulations, {name}!")
     return None

@@ -32,10 +32,9 @@ def prime_game():
 
 game = {
     "title": "Prime number game",
-    "description":
-        "Answer 'yes' if given number is prime. " +
-        "Otherwise answer 'no'.\n",
-    "game": prime_game,
+    "description": "Answer 'yes' if given number is prime. "
+    + "Otherwise answer 'no'.\n",
+    "game_round": prime_game,
 }
 
 

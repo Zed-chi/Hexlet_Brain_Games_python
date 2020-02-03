@@ -23,7 +23,7 @@ def even_or_not_game():
 game = {
     "title": "Even or Not",
     "description": "Answer 'yes' if number even otherwise answer 'no'.\n",
-    "game": even_or_not_game,
+    "game_round": even_or_not_game,
 }
 
 
