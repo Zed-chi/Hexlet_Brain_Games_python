@@ -3,7 +3,7 @@ from .scripts.games.brain_even import game as even
 from .scripts.games.brain_gcd import game as gcd
 from .scripts.games.brain_progression import game as progression
 from .scripts.games.brain_prime import game as prime
-from .scripts.brain_games import main
+from .scripts.game_runner import main
 
 
 GAMES = [calc, even, gcd, progression, prime]

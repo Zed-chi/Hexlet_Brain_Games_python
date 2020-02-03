@@ -1,5 +1,5 @@
 from random import randint
-from ..brain_games import main as run
+from ..game_runner import main as run
 import prompt
 
 

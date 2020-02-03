@@ -1,4 +1,4 @@
-from ..brain_games import main as run
+from ..game_runner import main as run
 from random import randint
 import prompt
 
