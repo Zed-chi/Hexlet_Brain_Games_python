@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zedchi_brain_games"
-version = "0.5.1"
+version = "0.5.2"
 description = "Collection of console-based games"
 authors = ["Zed-chi <zed-chi@mail.ru>"]
 repository = "https://github.com/Zed-chi/Hexlet_Brain_Games_python"
