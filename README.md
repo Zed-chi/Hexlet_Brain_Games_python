@@ -33,8 +33,18 @@ then you can choose game that you want.
 
 
 ### Demo:
-[![asciicast](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n.svg)](https://asciinema.org/a/NdPgURxYfjcD5Zy2rI7Tis20n)
+- brain-even game: [![asciicast](https://asciinema.org/a/EETRAMCMCRP5BEmvQW1sDJC0Z.svg)](https://asciinema.org/a/EETRAMCMCRP5BEmvQW1sDJC0Z)
+- brain-calc game:
+[![asciicast](https://asciinema.org/a/L5ShWYOvHe3nQ1UFD5nd0JX2K.svg)](https://asciinema.org/a/L5ShWYOvHe3nQ1UFD5nd0JX2K)
+- brain-gcd game:
+[![asciicast](https://asciinema.org/a/j0Z6p7RsUEtHURXuOKwcFrNiK.svg)](https://asciinema.org/a/j0Z6p7RsUEtHURXuOKwcFrNiK)
+- brain-progression game :
+[![asciicast](https://asciinema.org/a/lJQXMdFdFG4P1aqAjMEaIM7MC.svg)](https://asciinema.org/a/lJQXMdFdFG4P1aqAjMEaIM7MC)
+- brain-prime game :
+[![asciicast](https://asciinema.org/a/K2XqI6i3It8MjRgR1NOxLIyFB.svg)](https://asciinema.org/a/K2XqI6i3It8MjRgR1NOxLIyFB)
 
+- brain-games :
+[![asciicast](https://asciinema.org/a/YLS6ayEXGXNp9zNzRQKL95ZeD.svg)](https://asciinema.org/a/YLS6ayEXGXNp9zNzRQKL95ZeD)
 
 ## dev instructions:
 ```bash
