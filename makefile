@@ -10,4 +10,5 @@ lint:
 	poetry run flake8 brain-prime
 
 publish:
+	poetry build
 	poetry publish -r test
