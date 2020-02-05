@@ -1,6 +1,6 @@
-from brain_games.games import progression as game
-from brain_games.scripts import engine
+from brain_games.games import progression
+from brain_games import engine
 
 
 def main():
-    engine.run(game=game)
+    engine.run(game=progression)
