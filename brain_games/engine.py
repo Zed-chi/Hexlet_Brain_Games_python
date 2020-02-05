@@ -2,7 +2,7 @@ import prompt
 
 
 def run(game=None, games=None, answers_to_win=3):
-    print("Welcome to the Brain Games!\n")
+    print("Welcome to the Brain Games!")
     """
     Prints Games List if games array is passed as arg,
     and waits for your choice
@@ -20,7 +20,7 @@ def run(game=None, games=None, answers_to_win=3):
         game = games[choice]
 
     """ Executes Game round """
-    print(game.rules)
+    print(game.rules, "\n")
 
     name = prompt.string(empty=False, prompt="May I have your name? ")
     print(f"Hello {name}\n")
