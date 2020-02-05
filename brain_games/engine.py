@@ -1,23 +1,23 @@
 import prompt
 
 
-def run(game=None, GAMES=None, answers_to_win=3):
+def run(game=None, games=None, answers_to_win=3):
     print("Welcome to the Brain Games!\n")
     """
     Prints Games List if games array is passed as arg,
     and waits for your choice
     """
-    if game is None and GAMES is None:
+    if game is None and games is None:
         return None
-    elif game is None and GAMES:
+    elif game is None and games:
         print("Available Games: ")
-        for i, v in enumerate(GAMES):
-            print(f"{i}. {v['title']}")
+        for i, v in enumerate(games):
+            print(f"{i}. {v.title}")
 
         choice = None
-        while choice is None or choice > len(GAMES) - 1 or choice < 0:
+        while choice is None or choice > len(games) - 1 or choice < 0:
             choice = prompt.integer(prompt="Your choice: ")
-        game = GAMES[choice]
+        game = games[choice]
 
     """ Executes Game round """
     print(game.rules)
