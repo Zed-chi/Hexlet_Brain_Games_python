@@ -1,10 +1,10 @@
 from random import randint
-import prompt
+from prompt import string
 
 
 title = "Even or Not"
 rules = "Answer 'yes' if number even otherwise answer 'no'."
-game_prompt = prompt.string
+game_prompt = string
 
 
 def round():

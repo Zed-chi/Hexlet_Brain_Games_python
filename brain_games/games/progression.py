@@ -1,11 +1,11 @@
 from random import randint
-import prompt
+from prompt import integer
 
 
 PROGRESSION_LENGTH = 10
 title = "Progression game"
 rules = "What number is missing in the progression?"
-game_prompt = prompt.integer
+game_prompt = integer
 
 
 def round():

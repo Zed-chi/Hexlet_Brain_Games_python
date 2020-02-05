@@ -1,10 +1,10 @@
 from random import randint
-import prompt
+from prompt import integer
 
 
 title = "Greatest common divider game"
 rules = "Find the greatest common divisor of given numbers."
-game_prompt = prompt.integer
+game_prompt = integer
 
 
 def round():

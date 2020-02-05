@@ -1,10 +1,10 @@
 from random import randint
-import prompt
+from prompt import string
 
 
 title = "Prime number game"
 rules = "Answer 'yes' if given number is prime. Otherwise answer 'no'."
-game_prompt = prompt.string
+game_prompt = string
 
 
 def is_num_prime(num):
