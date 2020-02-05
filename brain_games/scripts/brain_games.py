@@ -1,10 +1,6 @@
-from brain_games import games as q
+from brain_games.games import calc, even, prime, progression, gcd
 from brain_games import engine
 
 
 def main():
-    engine.run(GAMES=[
-        q.calc, q.even,
-        ]
-    )
- 
+    engine.run(games=[calc, even, prime, progression, gcd])
