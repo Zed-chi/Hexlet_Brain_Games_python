@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "zedchi_brain_games"
-version = "0.5.2"
+version = "0.5.3"
 description = "Collection of console-based games"
 authors = ["Zed-chi <zed-chi@mail.ru>"]
-repository = "https://github.com/Zed-chi/Hexlet_Brain_Games_python"
+repository = "https://github.com/Zed-chi/python-project-lvl1"
 packages = [
     { include = "brain_games"}
 ]
@@ -19,12 +19,12 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.cli:run"
-brain-even = "brain_games.scripts.games.brain_even:main"
-brain-calc = "brain_games.scripts.games.brain_calc:main"
-brain-gcd = "brain_games.scripts.games.brain_gcd:main"
-brain-progression = "brain_games.scripts.games.brain_progression:main"
-brain-prime = "brain_games.scripts.games.brain_prime:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
