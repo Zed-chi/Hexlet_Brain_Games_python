@@ -1,25 +1,19 @@
-from random import randint
-from prompt import integer
-
-title = "Calculation game"
-rules = "What is the result of the expression?"
-game_prompt = integer
+from random import randint, choice
 
 
-def round():
+TITLE = "Calculation game"
+RULES = "What is the result of the expression?"
+
+
+def game_round():
     num_a = randint(0, 100)
     num_b = randint(0, 100)
-    operation = randint(1, 4)
-    if operation == 1:
-        question = f"Question: {num_a} + {num_b}"
-        result = num_a + num_b
-    elif operation == 2:
-        question = f"Question: {num_a} - {num_b}"
-        result = num_a - num_b
-    elif operation == 3:
-        question = f"Question: {num_a} * {num_b}"
-        result = num_a * num_b
-    else:
-        question = f"Question: {num_a} // {num_b}"
-        result = num_a // num_b
+    operation_char, operation = choice(
+        ("+", int.__add__),
+        ("-", int.__sub__),
+        ("*", int.__mul__),
+        ("//", int.__floordiv__),
+    )
+    question = f"Question: {num_a} {operation_char} {num_b}"
+    result = operation(num_a,  num_b)
     return (question, result)
