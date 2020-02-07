@@ -1,10 +1,10 @@
 import prompt
 
 
-def game_chooser(games=None):
+def choose_game(games=None):
     if games is None:
         return
-    print("Available Games: ")
+    print("Choose a game: ")
     for game_index, game in enumerate(games):
         print(f"{game_index}. {game.TITLE}")
 
