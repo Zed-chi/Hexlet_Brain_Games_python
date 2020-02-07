@@ -40,4 +40,3 @@ def run(game=None, games=None, answers_to_win=3):
             print(f"Let's try again, {name}!")
             return None
     print(f"Congratulations, {name}!")
-    return None
