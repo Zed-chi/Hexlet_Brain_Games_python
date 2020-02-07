@@ -15,5 +15,5 @@ def game_round():
         ("//", int.__floordiv__),
     )
     question = f"Question: {num_a} {operation_char} {num_b}"
-    result = operation(num_a,  num_b)
+    result = operation(num_a, num_b)
     return (question, result)
