@@ -13,8 +13,8 @@ def run(game=None, answers_to_win=3):
     while correct_answers < answers_to_win:
         question, correct_answer = game.round()
         print(question)
-        user_answer = game.game_prompt(prompt="Your Answer: ")
-        if user_answer == correct_answer:
+        user_answer = prompt.string(prompt="Your Answer: ")
+        if user_answer == str(correct_answer):
             print("Correct!")
             correct_answers += 1
         else:
