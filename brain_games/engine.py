@@ -38,5 +38,5 @@ def run(game=None, games=None, answers_to_win=3):
                 f"Correct answer was '{correct_answer}'.",
             )
             print(f"Let's try again, {name}!")
-            return None
+            return
     print(f"Congratulations, {name}!")
