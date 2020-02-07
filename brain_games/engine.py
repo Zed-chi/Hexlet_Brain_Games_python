@@ -9,9 +9,10 @@ def run(game=None, answers_to_win=3):
 
     name = prompt.string(empty=False, prompt="May I have your name? ")
     print(f"Hello {name}\n")
+
     correct_answers = 0
     while correct_answers < answers_to_win:
-        question, correct_answer = game.round()
+        question, correct_answer = game.game_round()
         print(question)
         user_answer = prompt.string(prompt="Your Answer: ")
         if user_answer == str(correct_answer):
