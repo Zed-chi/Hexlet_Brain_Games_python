@@ -5,7 +5,7 @@ def run(game=None, answers_to_win=3):
     if game is None:
         return
     print("Welcome to the Brain Games!")
-    print(game.rules, "\n")
+    print(game.RULES, "\n")
 
     name = prompt.string(empty=False, prompt="May I have your name? ")
     print(f"Hello {name}\n")
