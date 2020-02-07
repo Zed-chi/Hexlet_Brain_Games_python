@@ -1,14 +1,12 @@
 from random import randint
-from prompt import integer
 
 
 PROGRESSION_LENGTH = 10
-title = "Progression game"
-rules = "What number is missing in the progression?"
-game_prompt = integer
+TITLE = "Progression game"
+RULES = "What number is missing in the progression?"
 
 
-def round():
+def game_round():
     start_num = randint(1, 20)
     progression_step = randint(1, 10)
     missing_num_index = randint(1, PROGRESSION_LENGTH - 1)
@@ -21,6 +19,6 @@ def round():
     )
     missing_number = numbers[missing_num_index]
     numbers[missing_num_index] = ".."
-    numbers = map(lambda x: str(x), numbers)
+    numbers = map(str, numbers)
     question = f"Question: {' '.join(numbers)}"
     return (question, missing_number)

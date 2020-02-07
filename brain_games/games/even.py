@@ -1,13 +1,11 @@
 from random import randint
-from prompt import string
 
 
-title = "Even or Not"
-rules = "Answer 'yes' if number even otherwise answer 'no'."
-game_prompt = string
+TITLE = "Even or Not"
+RULES = "Answer 'yes' if number even otherwise answer 'no'."
 
 
-def round():
+def game_round():
     num = randint(0, 100)
     question = f"Question: {num}"
     correct_answer = "yes" if num % 2 == 0 else "no"

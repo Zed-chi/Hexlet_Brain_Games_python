@@ -1,10 +1,8 @@
 from random import randint
-from prompt import string
 
 
-title = "Prime number game"
-rules = "Answer 'yes' if given number is prime. Otherwise answer 'no'."
-game_prompt = string
+TITLE = "Prime number game"
+RULES = "Answer 'yes' if given number is prime. Otherwise answer 'no'."
 
 
 def is_num_prime(num):
@@ -18,7 +16,7 @@ def is_num_prime(num):
     return True
 
 
-def round():
+def game_round():
     num = randint(1, 50)
     correct_answer = "yes" if is_num_prime(num) else "no"
     question = f"Question: {num}"
