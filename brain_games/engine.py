@@ -2,7 +2,9 @@ import prompt
 
 
 def run(game=None, answers_to_win=3):
-    print("Welcome to the Brain Games!")    
+    if game is None:
+        return
+    print("Welcome to the Brain Games!")
     print(game.rules, "\n")
 
     name = prompt.string(empty=False, prompt="May I have your name? ")
