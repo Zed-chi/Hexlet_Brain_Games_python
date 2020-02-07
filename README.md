@@ -1,7 +1,12 @@
 # python-project-lvl1
 
 ### Hexlet Brain Games 1 project
-It's a collection of console-based games in python
+It's a collection of console-based games with numbers in python:
+* Guess the number is even or not
+* Solve expression of two numbers
+* Find greatest common divider of two numbers
+* Find missing number in progression
+* Guess the number is prime or not
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5346e09076a8d5e50282/maintainability)](https://codeclimate.com/github/Zed-chi/Hexlet_Brain_Games_python/maintainability)
 
