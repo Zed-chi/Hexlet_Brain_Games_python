@@ -5,7 +5,7 @@ It's a collection of console-based games in python
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5346e09076a8d5e50282/maintainability)](https://codeclimate.com/github/Zed-chi/Hexlet_Brain_Games_python/maintainability)
 
-[![Build Status](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python.svg?branch=master)](https://travis-ci.org/Zed-chi/Hexlet_Brain_Games_python)
+[![Build Status](https://travis-ci.org/Zed-chi/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Zed-chi/python-project-lvl1)
 
 Package on [TestPypi repository](https://test.pypi.org/project/zedchi-brain-games/)
 ## Requrements:
