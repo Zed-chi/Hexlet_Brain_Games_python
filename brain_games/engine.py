@@ -15,14 +15,13 @@ def run(game=None, answers_to_win=3):
             question, correct_answer = game.game_round()
             print(question)
             user_answer = prompt.string(prompt="Your Answer: ")
-            if user_answer == str(correct_answer):
-                print("Correct!")
-                correct_answers += 1
-            else:
+            if user_answer != str(correct_answer):
                 print(
                     f"'{user_answer}' is wrong answer ;(. ",
                     f"Correct answer was '{correct_answer}'.",
                 )
                 print(f"Let's try again, {name}!")
                 return
+            print("Correct!")
+            correct_answers += 1
         print(f"Congratulations, {name}!")
